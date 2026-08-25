@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:081410,30:0F3D30,50:1B5240,70:0F3D30,100:081410&height=220&text=LoRaWAN%20%7C%20LBM%20%7C%20CubeWL&fontSize=48&fontColor=EDE6D6&fontAlignY=38&desc=Stack%20Integration%20%26%20Porting&descAlignY=58&descSize=20&descColor=C97C4B&animation=fadeIn" width="100%" alt="header" />
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:081410,30:0F3D30,50:1B5240,70:0F3D30,100:081410&height=220&text=LoRaWAN%20LBM%20CubeWL&fontSize=52&fontColor=EDE6D6&fontAlignY=38&desc=Stack%20Integration%20and%20Porting&descAlignY=58&descSize=20&descColor=C97C4B&animation=fadeIn" width="100%" alt="header" />
 
 `PART NO. LORAWAN-LBM-01` &nbsp;·&nbsp; `REV. 2026.08` &nbsp;·&nbsp; `FIRMWARE MODULE`
 
@@ -94,7 +94,7 @@ Designed for low-power IoT applications, this firmware architecture bridges the 
 
 *(Placeholder for System Architecture)*
 <br/>
-<img src="https://via.placeholder.com/800x300/081410/D4AF37?text=STM32WL+%7C+Radio+HAL+%7C+LoRa+Basics+Modem+%7C+Application+Layer" width="100%" alt="System Architecture Diagram" style="border: 2px solid #0F3D30; border-radius: 8px;"/>
+<img src="https://placehold.co/800x300/081410/D4AF37.png?text=System+Architecture+Diagram" width="100%" alt="System Architecture Diagram" style="border: 2px solid #0F3D30; border-radius: 8px;"/>
 
 <sub><i>System Block Diagram outlining the interaction between STM32 HW, Sub-GHz Radio, and LBM Stack.</i></sub>
 </div>
