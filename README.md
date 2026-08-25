@@ -92,11 +92,11 @@ Designed for low-power IoT applications, this firmware architecture bridges the 
 
 <div align="center">
 
-*(Placeholder for System Architecture)*
-<br/>
-<img src="https://placehold.co/800x300/081410/D4AF37.png?text=System+Architecture+Diagram" width="100%" alt="System Architecture Diagram" style="border: 2px solid #0F3D30; border-radius: 8px;"/>
+<img src="assets/block-diagram.svg" width="100%" alt="System Architecture Diagram for STM32CubeWL and LBM" />
 
+<br/>
 <sub><i>System Block Diagram outlining the interaction between STM32 HW, Sub-GHz Radio, and LBM Stack.</i></sub>
+
 </div>
 
 <div align="center">
