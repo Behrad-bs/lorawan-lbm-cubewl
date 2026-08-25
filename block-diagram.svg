@@ -1,0 +1,62 @@
+<svg viewBox="0 0 1400 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#081410"/>
+      <stop offset="50%" stop-color="#0F3D30"/>
+      <stop offset="100%" stop-color="#081410"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#EDE6D6" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="blockHero" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1B5240"/>
+      <stop offset="100%" stop-color="#0F3D30"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1400" height="260" fill="url(#bgGrad)"/>
+  <rect x="0" y="0" width="1400" height="260" fill="url(#grid)"/>
+
+  <text x="700" y="34" text-anchor="middle" font-family="'Courier New', Consolas, monospace" font-size="17" letter-spacing="4" fill="#C97C4B" font-weight="bold">FUNCTIONAL BLOCK DIAGRAM</text>
+
+  <line x1="260" y1="145" x2="315" y2="145" stroke="#C97C4B" stroke-width="2"/>
+  <line x1="535" y1="145" x2="590" y2="145" stroke="#C97C4B" stroke-width="2"/>
+  <line x1="810" y1="145" x2="865" y2="145" stroke="#C97C4B" stroke-width="2"/>
+  <line x1="1085" y1="145" x2="1140" y2="145" stroke="#C97C4B" stroke-width="2"/>
+
+  <circle cx="287.5" cy="145" r="6" fill="#D4AF37"/>
+  <circle cx="562.5" cy="145" r="6" fill="#D4AF37"/>
+  <circle cx="837.5" cy="145" r="6" fill="#D4AF37"/>
+  <circle cx="1112.5" cy="145" r="6" fill="#D4AF37"/>
+
+  <rect x="40" y="95" width="220" height="100" rx="14" fill="#8B4A2B" stroke="#C97C4B" stroke-width="2"/>
+  <text x="150" y="140" text-anchor="middle" font-family="'Courier New', Consolas, monospace" font-size="18" font-weight="bold" fill="#EDE6D6">SENSORS</text>
+  <text x="150" y="162" text-anchor="middle" font-family="'Courier New', Consolas, monospace" font-size="12" fill="#EDE6D6" fill-opacity="0.8">&amp; Peripherals</text>
+
+  <rect x="315" y="85" width="220" height="120" rx="14" fill="url(#blockHero)" stroke="#D4AF37" stroke-width="3"/>
+  <text x="425" y="135" text-anchor="middle" font-family="'Courier New', Consolas, monospace" font-size="19" font-weight="bold" fill="#EDE6D6">MCU CORE</text>
+  <text x="425" y="158" text-anchor="middle" font-family="'Courier New', Consolas, monospace" font-size="12" fill="#D4AF37">STM32 · RTOS</text>
+
+  <line x1="345" y1="85" x2="345" y2="75" stroke="#D4AF37" stroke-width="2"/>
+  <line x1="385" y1="85" x2="385" y2="75" stroke="#D4AF37" stroke-width="2"/>
+  <line x1="465" y1="85" x2="465" y2="75" stroke="#D4AF37" stroke-width="2"/>
+  <line x1="505" y1="85" x2="505" y2="75" stroke="#D4AF37" stroke-width="2"/>
+  <line x1="345" y1="205" x2="345" y2="215" stroke="#D4AF37" stroke-width="2"/>
+  <line x1="385" y1="205" x2="385" y2="215" stroke="#D4AF37" stroke-width="2"/>
+  <line x1="465" y1="205" x2="465" y2="215" stroke="#D4AF37" stroke-width="2"/>
+  <line x1="505" y1="205" x2="505" y2="215" stroke="#D4AF37" stroke-width="2"/>
+
+  <rect x="590" y="95" width="220" height="100" rx="14" fill="#0E6E76" stroke="#C97C4B" stroke-width="2"/>
+  <text x="700" y="140" text-anchor="middle" font-family="'Courier New', Consolas, monospace" font-size="18" font-weight="bold" fill="#EDE6D6">RADIO</text>
+  <text x="700" y="162" text-anchor="middle" font-family="'Courier New', Consolas, monospace" font-size="12" fill="#EDE6D6" fill-opacity="0.8">LoRaWAN / BLE</text>
+
+  <rect x="865" y="95" width="220" height="100" rx="14" fill="#0B241D" stroke="#C97C4B" stroke-width="2"/>
+  <text x="975" y="140" text-anchor="middle" font-family="'Courier New', Consolas, monospace" font-size="18" font-weight="bold" fill="#EDE6D6">GATEWAY</text>
+  <text x="975" y="162" text-anchor="middle" font-family="'Courier New', Consolas, monospace" font-size="12" fill="#EDE6D6" fill-opacity="0.8">MQTT / Cloud</text>
+
+  <rect x="1140" y="95" width="220" height="100" rx="14" fill="#8A6D1E" stroke="#D4AF37" stroke-width="2"/>
+  <text x="1250" y="140" text-anchor="middle" font-family="'Courier New', Consolas, monospace" font-size="18" font-weight="bold" fill="#EDE6D6">LEDGER</text>
+  <text x="1250" y="162" text-anchor="middle" font-family="'Courier New', Consolas, monospace" font-size="12" fill="#EDE6D6" fill-opacity="0.8">Blockchain</text>
+
+  <text x="700" y="240" text-anchor="middle" font-family="'Courier New', Consolas, monospace" font-size="11" letter-spacing="2" fill="#EDE6D6" fill-opacity="0.5">FIG. 1 — SIGNAL PATH FROM SENSOR TO LEDGER</text>
+</svg>
